@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(chocolatebars,Twix) {
 }
 
 function accessElementInArray(array,index) {
-  return (access[1]);
+  return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolatebars) {
