@@ -24,10 +24,10 @@ function accessElementInArray(array,index) {
   return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(chocolatebars) {
-chocolatebars.shift() 
-  return chocolatebars
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+chocolateBars.shift();
+  return chocolateBars;
 }
- function removeElementFromBeginningOfArray(chocolatebars) {
- return chocolatebars.slice(1);
+ function removeElementFromBeginningOfArray(chocolateBars) {
+ return chocolateBars.slice(1);
  }
