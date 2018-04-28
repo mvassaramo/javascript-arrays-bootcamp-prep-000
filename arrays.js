@@ -37,4 +37,6 @@ chocolateBars.shift();
    return chocolateBars;
  }
  
- function 
+ function removeElementFromEndOfArray(chocolateBars) {
+   chocolateBars.slice(0,chocolateBars.length-1);
+ }
